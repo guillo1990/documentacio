@@ -14,3 +14,4 @@ include:
   - PULL_REQUEST_TEMPLATE.md
   - GIT.MD
   - LARAVEL.MD
+theme: jekyll-theme-midnight
