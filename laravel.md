@@ -35,7 +35,7 @@
 
 ### Crear un projecte
 
-1. Ens situem a la carpeta on es crearà el projecte (no cal crear la carpeta amb el nom) i executem `laravel new {nou_projecte}`
+1. Ens situem a la carpeta on es crearà el projecte (no cal crear la carpeta amb el nom) i executem `laravel new {nou_projecte}` (si et situes dins la carpeta i fas `laravel new`, es creen a l'arrel totes les dependències)
 2. Si volem que el projecte utilitzi .vue, executem `composer require laravel/ui`. Si també volem que utilitzi authenticació, executem `php artisan ui vue --auth`.
 3. Si volem que utilitzi bootstrap, executem `php artisan ui bootstrap`.
 4. Un cop acabat executem `npm install` i després `npm run dev` per recompilar les instalacions.
